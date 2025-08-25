@@ -116,6 +116,12 @@ EXPORT void StateSpaceModel2_Initialization(struct EstimatorPortN *estimator);
 EXPORT void StateSpaceModel2_EstimatorPort(double *In_Observation, double In_Observation_Timestamp, struct EstimatorPortN *estimator);
 EXPORT void StateSpaceModel2_EstimatorPortTermination(struct EstimatorPortN *estimator);
 
+
+EXPORT extern EstimatorPortN StateSpaceModel3_;
+EXPORT void StateSpaceModel3_Initialization(struct EstimatorPortN *estimator);
+EXPORT void StateSpaceModel3_EstimatorPort(double *In_Observation, double In_Observation_Timestamp, struct EstimatorPortN *estimator);
+EXPORT void StateSpaceModel3_EstimatorPortTermination(struct EstimatorPortN *estimator);
+
 #ifdef __cplusplus
 }
 #endif
